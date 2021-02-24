@@ -10,10 +10,29 @@
             color: black;
             text-decoration: none;
         }
+
+        .cls1{
+            background-color: aliceblue;
+            padding: 50px 20px;
+        }
+
+        #main-body{
+            background-color: lightgrey;  
+            margin: 0 20%;          
+        }
+
+        @media only screen and (max-width:800px) {
+        /* For tablets: */
+        #main-body {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            }
+        }
     </style>
 </head>
-<body bgcolor="lightgrey" leftmargin="20%">
-    <div  style="background-color: aliceblue; padding-left: 20px; padding: 50px 20px 50px; ">
+<body id="main-body">
+    <div class="cls1">
         <div>
             <font>
                 <i>
